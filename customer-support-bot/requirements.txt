@@ -1,18 +1,20 @@
-  fastapi==0.109.1
+# پایه‌ای
+fastapi==0.109.1
 uvicorn==0.27.0
 python-dotenv==1.0.0
 pydantic==2.6.1
 
-
+# هوش مصنوعی و پردازش زبان
 openai==1.12.0
 langchain==0.1.5
 sentence-transformers==2.2.2
-#پایگاه
+
+# پایگاه داده‌ها و ذخیره‌سازی
 asyncpg==0.29.0
 sqlalchemy==2.0.25
 psycopg2-binary==2.9.9
 redis==5.0.1
-pgvector==0.4.1  # جدیدترین نسخه موجود
+pgvector==0.2.6
 aioredis==2.0.1
 
 # ابزارهای کمکی
