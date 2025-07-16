@@ -57,3 +57,27 @@ async def handle_conversation(user_input: str, user_id: str, session_id: str = N
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
+from fastapi import FastAPI, Request
+from app.services.support_agent import SupportAgent
+from app.services.logger import log_conversation
+import uuid
+
+app = FastAPI()
+agent = SupportAgent()
+
+@app.post("/api/chat")
+async def chat_endpoint(request: Request):
+    data = await request.json()
+    user_input = data.get("message")
+    session_id = data.get("session_id", str(uuid.uuid4()))
+    
+    response = agent.generate_response(user_input)
+    
+    # ثبت مکالمه در LangSmith
+    log_conversation(user_input, response, session_id)
+    
+    return {
+        "response": response,
+        "session_id": session_id
+    }
