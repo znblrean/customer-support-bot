@@ -231,3 +231,35 @@ class SupportAgent:
                 "timestamp": str(datetime.utcnow())
             }
             self.db_service.redis.setex(redis_key, 3600, json.dumps(conversation))
+
+from langchain.chat_models import ChatOpenAI
+from langchain.chains import LLMChain
+from langchain.prompts import ChatPromptTemplate
+from app.services.conversation_service import ConversationService
+
+class SupportAgent:
+    def __init__(self):
+        self.llm = ChatOpenAI(
+            temperature=0.7,
+            model="gpt-4",
+            streaming=True
+        )
+        self.conversation_service = ConversationService()
+        
+        self.prompt = ChatPromptTemplate.from_template(
+            """You are a customer support agent. Respond to: {user_input}"""
+        )
+        
+        self.chain = LLMChain(
+            llm=self.llm,
+            prompt=self.prompt
+        )
+    
+    async def respond(self, user_input: str):
+        response = await self.chain.arun(
+            user_input=user_input,
+            callbacks=[self.conversation_service.callback_manager]
+        )
+        
+        await self.conversation_service.log_conversation(user_input, response)
+        return response
