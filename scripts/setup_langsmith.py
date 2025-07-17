@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def create_langsmith_project():
-    # دریافت API Key از محیط
-    api_key = os.getenv("LANGCHAIN_API_KEY")
+
+    api_key = os.getenv("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")
     if not api_key:
         raise ValueError("LANGCHAIN_API_KEY not found in .env file")
     
