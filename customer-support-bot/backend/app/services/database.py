@@ -1,0 +1,1 @@
+from app.utils.logger import logger  # باید با نام موجود در logger.py مطابقت داشته باشد
