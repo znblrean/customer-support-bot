@@ -1,0 +1,1686 @@
+versions pytest-8.3.5, python-3.12.1.final.0
+invocation_dir=/workspaces/customer-support-bot
+cwd=/workspaces/customer-support-bot
+args=('--debug',)
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x7f804baedeb0>
+    pytest_plugin_registered [hook]
+        plugin: <Session  exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        plugin_name: session
+        manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x7f804baedeb0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x7f804b0535c0>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x7f8049a07da0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+          plugin_name: 140188993617120
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x7f804baedeb0>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/mark/__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/assertion/__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/freeze_support.py'>
+          plugin_name: freeze_support
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/python_path.py'>
+          plugin_name: python_path
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'anyio.pytest_plugin' from '/home/codespace/.local/lib/python3.12/site-packages/anyio/pytest_plugin.py'>
+          plugin_name: anyio
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'langsmith.pytest_plugin' from '/usr/local/python/3.12.1/lib/python3.12/site-packages/langsmith/pytest_plugin.py'>
+          plugin_name: langsmith_plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=7 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=8 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=9 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x7f804b0535c0>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x7f8049a07da0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x7f804997c080>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x7f804b063350>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+          plugin_name: 140188993617120
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x7f804baedeb0>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/mark/__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/assertion/__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/freeze_support.py'>
+          plugin_name: freeze_support
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/python_path.py'>
+          plugin_name: python_path
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/usr/local/py-utils/venvs/pytest/lib/python3.12/site-packages/_pytest/faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'anyio.pytest_plugin' from '/home/codespace/.local/lib/python3.12/site-packages/anyio/pytest_plugin.py'>
+          plugin_name: anyio
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'langsmith.pytest_plugin' from '/usr/local/python/3.12.1/lib/python3.12/site-packages/langsmith/pytest_plugin.py'>
+          plugin_name: langsmith_plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=7 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=8 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=9 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x7f804b0535c0>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x7f8049a07da0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x7f804997c080>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x7f804b063350>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x7f804b0629f0>
+          plugin_name: funcmanage
+          manager: <_pytest.config.PytestPluginManager object at 0x7f804b2a7ce0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x7f804baedeb0>
+          start_path: /workspaces/customer-support-bot
+          startdir: /workspaces/customer-support-bot
+      finish pytest_report_header --> [['rootdir: /workspaces/customer-support-bot', 'plugins: anyio-4.9.0, langsmith-0.4.6'], ['using: pytest-8.3.5', 'registered third-party plugins:', '  anyio-4.9.0 at /home/codespace/.local/lib/python3.12/site-packages/anyio/pytest_plugin.py', '  langsmith-0.4.6 at /usr/local/python/3.12.1/lib/python3.12/site-packages/langsmith/pytest_plugin.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['/workspaces/customer-support-bot'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument CollectionArgument(path=PosixPath('/workspaces/customer-support-bot'), parts=[], module_name=None) [collection]
+            pytest_collect_directory [hook]
+                path: /workspaces/customer-support-bot
+                parent: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_directory --> <Dir customer-support-bot> [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Dir customer-support-bot> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir customer-support-bot>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir customer-support-bot>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/.git
+            path: /workspaces/customer-support-bot/.git
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/.pytest_cache
+            path: /workspaces/customer-support-bot/.pytest_cache
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/README.md
+            path: /workspaces/customer-support-bot/README.md
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir customer-support-bot>
+            file_path: /workspaces/customer-support-bot/README.md
+            path: /workspaces/customer-support-bot/README.md
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot
+            path: /workspaces/customer-support-bot/customer-support-bot
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /workspaces/customer-support-bot/customer-support-bot
+            parent: <Dir customer-support-bot>
+        finish pytest_collect_directory --> <Dir customer-support-bot> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/pytestdebug.log
+            path: /workspaces/customer-support-bot/pytestdebug.log
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir customer-support-bot>
+            file_path: /workspaces/customer-support-bot/pytestdebug.log
+            path: /workspaces/customer-support-bot/pytestdebug.log
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/venv
+            path: /workspaces/customer-support-bot/venv
+        finish pytest_ignore_collect --> True [hook]
+      finish pytest_make_collect_report --> <CollectReport '.' lenresult=1 outcome='passed'> [hook]
+    genitems <Dir customer-support-bot> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir customer-support-bot>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir customer-support-bot>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/.env
+            path: /workspaces/customer-support-bot/customer-support-bot/.env
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir customer-support-bot>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/.env
+            path: /workspaces/customer-support-bot/customer-support-bot/.env
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/.env.example
+            path: /workspaces/customer-support-bot/customer-support-bot/.env.example
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir customer-support-bot>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/.env.example
+            path: /workspaces/customer-support-bot/customer-support-bot/.env.example
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/.git
+            path: /workspaces/customer-support-bot/customer-support-bot/.git
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/.github
+            path: /workspaces/customer-support-bot/customer-support-bot/.github
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/.vscode
+            path: /workspaces/customer-support-bot/customer-support-bot/.vscode
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/LICENSE
+            path: /workspaces/customer-support-bot/customer-support-bot/LICENSE
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir customer-support-bot>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/LICENSE
+            path: /workspaces/customer-support-bot/customer-support-bot/LICENSE
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/README.md
+            path: /workspaces/customer-support-bot/customer-support-bot/README.md
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir customer-support-bot>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/README.md
+            path: /workspaces/customer-support-bot/customer-support-bot/README.md
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend
+            path: /workspaces/customer-support-bot/customer-support-bot/backend
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /workspaces/customer-support-bot/customer-support-bot/backend
+            parent: <Dir customer-support-bot>
+        finish pytest_collect_directory --> <Package backend> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/docker-compose.yml
+            path: /workspaces/customer-support-bot/customer-support-bot/docker-compose.yml
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir customer-support-bot>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/docker-compose.yml
+            path: /workspaces/customer-support-bot/customer-support-bot/docker-compose.yml
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/docs
+            path: /workspaces/customer-support-bot/customer-support-bot/docs
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /workspaces/customer-support-bot/customer-support-bot/docs
+            parent: <Dir customer-support-bot>
+        finish pytest_collect_directory --> <Dir docs> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend
+            parent: <Dir customer-support-bot>
+        finish pytest_collect_directory --> <Dir frontend> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/gitignore
+            path: /workspaces/customer-support-bot/customer-support-bot/gitignore
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir customer-support-bot>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/gitignore
+            path: /workspaces/customer-support-bot/customer-support-bot/gitignore
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/requirements.txt
+            path: /workspaces/customer-support-bot/customer-support-bot/requirements.txt
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir customer-support-bot>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/requirements.txt
+            path: /workspaces/customer-support-bot/customer-support-bot/requirements.txt
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/scripts
+            path: /workspaces/customer-support-bot/customer-support-bot/scripts
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /workspaces/customer-support-bot/customer-support-bot/scripts
+            parent: <Dir customer-support-bot>
+        finish pytest_collect_directory --> <Dir scripts> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/setup.py
+            path: /workspaces/customer-support-bot/customer-support-bot/setup.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir customer-support-bot>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/setup.py
+            path: /workspaces/customer-support-bot/customer-support-bot/setup.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/venv
+            path: /workspaces/customer-support-bot/customer-support-bot/venv
+        finish pytest_ignore_collect --> True [hook]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot' lenresult=4 outcome='passed'> [hook]
+    genitems <Package backend> [collection]
+      pytest_collectstart [hook]
+          collector: <Package backend>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package backend>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/__init__.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package backend>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/__init__.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/__init__.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/.gitignore
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/.gitignore
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package backend>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/.gitignore
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/.gitignore
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/__pycache__
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/__pycache__
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app
+            parent: <Package backend>
+        finish pytest_collect_directory --> <Package app> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/main.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/main.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package backend>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/main.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/main.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/package-lock.json
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/package-lock.json
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package backend>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/package-lock.json
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/package-lock.json
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/requirements.txt
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/requirements.txt
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package backend>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/requirements.txt
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/requirements.txt
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/tests
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/tests
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/tests
+            parent: <Package backend>
+        finish pytest_collect_directory --> <Package tests> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/venv
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/venv
+        finish pytest_ignore_collect --> True [hook]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot/backend' lenresult=2 outcome='passed'> [hook]
+    genitems <Package app> [collection]
+      pytest_collectstart [hook]
+          collector: <Package app>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package app>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/__init__.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package app>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/__init__.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/__init__.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/agents
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/agents
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/agents
+            parent: <Package app>
+        finish pytest_collect_directory --> <Package agents> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/config.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/config.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package app>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/config.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/config.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/main.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/main.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package app>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/main.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/main.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/models
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/models
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/models
+            parent: <Package app>
+        finish pytest_collect_directory --> <Package models> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services
+            parent: <Package app>
+        finish pytest_collect_directory --> <Package services> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils
+            parent: <Package app>
+        finish pytest_collect_directory --> <Package utils> [hook]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot/backend/app' lenresult=4 outcome='passed'> [hook]
+    genitems <Package agents> [collection]
+      pytest_collectstart [hook]
+          collector: <Package agents>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package agents>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/agents/__init__.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/agents/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package agents>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/agents/__init__.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/agents/__init__.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/agents/base_agent.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/agents/base_agent.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package agents>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/agents/base_agent.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/agents/base_agent.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/agents/support_agent.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/agents/support_agent.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package agents>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/agents/support_agent.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/agents/support_agent.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot/backend/app/agents' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot/backend/app/agents' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package models> [collection]
+      pytest_collectstart [hook]
+          collector: <Package models>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package models>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/models/__init__.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/models/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package models>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/models/__init__.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/models/__init__.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/models/conversation.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/models/conversation.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package models>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/models/conversation.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/models/conversation.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/models/user.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/models/user.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package models>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/models/user.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/models/user.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot/backend/app/models' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot/backend/app/models' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package services> [collection]
+      pytest_collectstart [hook]
+          collector: <Package services>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package services>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/__init__.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package services>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/__init__.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/__init__.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/conversation_service.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/conversation_service.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package services>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/conversation_service.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/conversation_service.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/database.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/database.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package services>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/database.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/database.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/llm_service.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/llm_service.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package services>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/llm_service.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/llm_service.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/logger.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/logger.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package services>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/logger.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/logger.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/support_agent.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/support_agent.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package services>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/support_agent.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/services/support_agent.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot/backend/app/services' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot/backend/app/services' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package utils> [collection]
+      pytest_collectstart [hook]
+          collector: <Package utils>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package utils>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/__init__.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package utils>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/__init__.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/__init__.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/langsmith.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/langsmith.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package utils>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/langsmith.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/langsmith.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/langsmith_config.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/langsmith_config.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package utils>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/langsmith_config.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/langsmith_config.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/logger.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/logger.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package utils>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/logger.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/logger.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/security.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/security.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package utils>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/security.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/security.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/tracing.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/tracing.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package utils>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/tracing.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/app/utils/tracing.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot/backend/app/utils' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot/backend/app/utils' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot/backend/app' lenresult=4 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package tests> [collection]
+      pytest_collectstart [hook]
+          collector: <Package tests>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package tests>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/__init__.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package tests>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/__init__.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/__init__.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/__pycache__
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/__pycache__
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_agents.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_agents.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package tests>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_agents.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_agents.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Package tests>
+              module_path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_agents.py
+              path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_agents.py
+          finish pytest_pycollect_makemodule --> <Module test_agents.py> [hook]
+        finish pytest_collect_file --> [<Module test_agents.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_langsmith.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_langsmith.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package tests>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_langsmith.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_langsmith.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Package tests>
+              module_path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_langsmith.py
+              path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_langsmith.py
+          finish pytest_pycollect_makemodule --> <Module test_langsmith.py> [hook]
+        finish pytest_collect_file --> [<Module test_langsmith.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_services.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_services.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package tests>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_services.py
+            path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_services.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Package tests>
+              module_path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_services.py
+              path: /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_services.py
+          finish pytest_pycollect_makemodule --> <Module test_services.py> [hook]
+        finish pytest_collect_file --> [<Module test_services.py>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot/backend/tests' lenresult=3 outcome='passed'> [hook]
+    genitems <Module test_agents.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_agents.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_agents.py>
+      early skip of rewriting module: backend [assertion]
+      early skip of rewriting module: backend.tests [assertion]
+      find_module called for: backend.tests.test_agents [assertion]
+      matched test file '/workspaces/customer-support-bot/customer-support-bot/backend/tests/test_agents.py' [assertion]
+      found cached rewritten pyc for /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_agents.py [assertion]
+      early skip of rewriting module: unittest.mock [assertion]
+      early skip of rewriting module: pkgutil [assertion]
+      early skip of rewriting module: app [assertion]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot/backend/tests/test_agents.py' lenresult=0 outcome='failed'> [hook]
+      pytest_exception_interact [hook]
+          node: <Module test_agents.py>
+          call: <CallInfo when='collect' excinfo=<ExceptionInfo CollectError("ImportError while importing test module '/workspaces/customer-support-bot/customer-support-bot/backend/t...3: in <module>\n    from app.agents.support_agent import SupportAgent\nE   ModuleNotFoundError: No module named 'app'") tblen=7>>
+          report: <CollectReport 'customer-support-bot/backend/tests/test_agents.py' lenresult=0 outcome='failed'>
+      finish pytest_exception_interact --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot/backend/tests/test_agents.py' lenresult=0 outcome='failed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_langsmith.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_langsmith.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_langsmith.py>
+      find_module called for: backend.tests.test_langsmith [assertion]
+      matched test file '/workspaces/customer-support-bot/customer-support-bot/backend/tests/test_langsmith.py' [assertion]
+      found cached rewritten pyc for /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_langsmith.py [assertion]
+      matched marked file 'langsmith.evaluation' (from 'langsmith') [assertion]
+      find_module called for: langsmith.evaluation [assertion]
+      found cached rewritten pyc for /usr/local/python/3.12.1/lib/python3.12/site-packages/langsmith/evaluation/__init__.py [assertion]
+      matched marked file 'langsmith.evaluation._runner' (from 'langsmith') [assertion]
+      find_module called for: langsmith.evaluation._runner [assertion]
+      found cached rewritten pyc for /usr/local/python/3.12.1/lib/python3.12/site-packages/langsmith/evaluation/_runner.py [assertion]
+      matched marked file 'langsmith.evaluation.evaluator' (from 'langsmith') [assertion]
+      find_module called for: langsmith.evaluation.evaluator [assertion]
+      found cached rewritten pyc for /usr/local/python/3.12.1/lib/python3.12/site-packages/langsmith/evaluation/evaluator.py [assertion]
+      matched marked file 'langsmith.evaluation.integrations' (from 'langsmith') [assertion]
+      find_module called for: langsmith.evaluation.integrations [assertion]
+      found cached rewritten pyc for /usr/local/python/3.12.1/lib/python3.12/site-packages/langsmith/evaluation/integrations/__init__.py [assertion]
+      matched marked file 'langsmith.evaluation.integrations._langchain' (from 'langsmith') [assertion]
+      find_module called for: langsmith.evaluation.integrations._langchain [assertion]
+      found cached rewritten pyc for /usr/local/python/3.12.1/lib/python3.12/site-packages/langsmith/evaluation/integrations/_langchain.py [assertion]
+      early skip of rewriting module: app [assertion]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot/backend/tests/test_langsmith.py' lenresult=0 outcome='failed'> [hook]
+      pytest_exception_interact [hook]
+          node: <Module test_langsmith.py>
+          call: <CallInfo when='collect' excinfo=<ExceptionInfo CollectError("ImportError while importing test module '/workspaces/customer-support-bot/customer-support-bot/backend/t...3: in <module>\n    from app.agents.support_agent import SupportAgent\nE   ModuleNotFoundError: No module named 'app'") tblen=7>>
+          report: <CollectReport 'customer-support-bot/backend/tests/test_langsmith.py' lenresult=0 outcome='failed'>
+      finish pytest_exception_interact --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot/backend/tests/test_langsmith.py' lenresult=0 outcome='failed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_services.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_services.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_services.py>
+      find_module called for: backend.tests.test_services [assertion]
+      matched test file '/workspaces/customer-support-bot/customer-support-bot/backend/tests/test_services.py' [assertion]
+      found cached rewritten pyc for /workspaces/customer-support-bot/customer-support-bot/backend/tests/test_services.py [assertion]
+      early skip of rewriting module: sqlalchemy [assertion]
+      early skip of rewriting module: sqlalchemy.util [assertion]
+      early skip of rewriting module: sqlalchemy.util.preloaded [assertion]
+      early skip of rewriting module: sqlalchemy.util._collections [assertion]
+      early skip of rewriting module: sqlalchemy.util._has_cy [assertion]
+      early skip of rewriting module: sqlalchemy.cyextension [assertion]
+      early skip of rewriting module: sqlalchemy.cyextension.collections [assertion]
+      early skip of rewriting module: sqlalchemy.cyextension.immutabledict [assertion]
+      early skip of rewriting module: sqlalchemy.cyextension.processors [assertion]
+      early skip of rewriting module: sqlalchemy.cyextension.resultproxy [assertion]
+      early skip of rewriting module: sqlalchemy.cyextension.util [assertion]
+      early skip of rewriting module: sqlalchemy.exc [assertion]
+      early skip of rewriting module: sqlalchemy.util.compat [assertion]
+      early skip of rewriting module: sqlalchemy.util.typing [assertion]
+      early skip of rewriting module: sqlalchemy.util.concurrency [assertion]
+      early skip of rewriting module: greenlet [assertion]
+      early skip of rewriting module: greenlet._greenlet [assertion]
+      early skip of rewriting module: sqlalchemy.util._concurrency_py3k [assertion]
+      early skip of rewriting module: sqlalchemy.util.langhelpers [assertion]
+      early skip of rewriting module: sqlalchemy.util.deprecations [assertion]
+      early skip of rewriting module: sqlalchemy.engine [assertion]
+      early skip of rewriting module: sqlalchemy.engine.events [assertion]
+      early skip of rewriting module: sqlalchemy.engine.base [assertion]
+      early skip of rewriting module: sqlalchemy.engine.interfaces [assertion]
+      early skip of rewriting module: sqlalchemy.event [assertion]
+      early skip of rewriting module: sqlalchemy.event.api [assertion]
+      early skip of rewriting module: sqlalchemy.event.base [assertion]
+      early skip of rewriting module: sqlalchemy.event.attr [assertion]
+      early skip of rewriting module: sqlalchemy.event.legacy [assertion]
+      early skip of rewriting module: sqlalchemy.event.registry [assertion]
+      early skip of rewriting module: sqlalchemy.pool [assertion]
+      early skip of rewriting module: sqlalchemy.pool.events [assertion]
+      early skip of rewriting module: sqlalchemy.pool.base [assertion]
+      early skip of rewriting module: sqlalchemy.log [assertion]
+      early skip of rewriting module: sqlalchemy.pool.impl [assertion]
+      early skip of rewriting module: sqlalchemy.util.queue [assertion]
+      early skip of rewriting module: sqlalchemy.sql [assertion]
+      early skip of rewriting module: sqlalchemy.sql._typing [assertion]
+      early skip of rewriting module: sqlalchemy.sql.roles [assertion]
+      early skip of rewriting module: sqlalchemy.inspection [assertion]
+      early skip of rewriting module: sqlalchemy.sql.base [assertion]
+      early skip of rewriting module: sqlalchemy.sql.visitors [assertion]
+      early skip of rewriting module: sqlalchemy.sql.cache_key [assertion]
+      early skip of rewriting module: sqlalchemy.sql.traversals [assertion]
+      early skip of rewriting module: sqlalchemy.sql.operators [assertion]
+      early skip of rewriting module: sqlalchemy.sql.compiler [assertion]
+      early skip of rewriting module: sqlalchemy.sql.coercions [assertion]
+      early skip of rewriting module: sqlalchemy.sql.crud [assertion]
+      early skip of rewriting module: sqlalchemy.sql.dml [assertion]
+      early skip of rewriting module: sqlalchemy.sql.util [assertion]
+      early skip of rewriting module: sqlalchemy.sql.annotation [assertion]
+      early skip of rewriting module: sqlalchemy.sql.ddl [assertion]
+      early skip of rewriting module: sqlalchemy.sql.elements [assertion]
+      early skip of rewriting module: sqlalchemy.sql.type_api [assertion]
+      early skip of rewriting module: sqlalchemy.util.topological [assertion]
+      early skip of rewriting module: sqlalchemy.sql.schema [assertion]
+      early skip of rewriting module: sqlalchemy.sql.selectable [assertion]
+      early skip of rewriting module: sqlalchemy.sql.sqltypes [assertion]
+      early skip of rewriting module: sqlalchemy.engine.processors [assertion]
+      early skip of rewriting module: sqlalchemy.engine._py_processors [assertion]
+      early skip of rewriting module: sqlalchemy.sql.functions [assertion]
+      early skip of rewriting module: sqlalchemy.sql.expression [assertion]
+      early skip of rewriting module: sqlalchemy.sql._dml_constructors [assertion]
+      early skip of rewriting module: sqlalchemy.sql._elements_constructors [assertion]
+      early skip of rewriting module: sqlalchemy.sql._selectable_constructors [assertion]
+      early skip of rewriting module: sqlalchemy.sql.lambdas [assertion]
+      early skip of rewriting module: sqlalchemy.sql.naming [assertion]
+      early skip of rewriting module: sqlalchemy.sql.events [assertion]
+      early skip of rewriting module: sqlalchemy.sql.default_comparator [assertion]
+      early skip of rewriting module: sqlalchemy.engine.util [assertion]
+      early skip of rewriting module: sqlalchemy.engine.create [assertion]
+      early skip of rewriting module: sqlalchemy.engine.url [assertion]
+      early skip of rewriting module: sqlalchemy.dialects [assertion]
+      early skip of rewriting module: sqlalchemy.engine.mock [assertion]
+      early skip of rewriting module: sqlalchemy.engine.cursor [assertion]
+      early skip of rewriting module: sqlalchemy.engine.result [assertion]
+      early skip of rewriting module: sqlalchemy.engine.row [assertion]
+      early skip of rewriting module: sqlalchemy.engine.reflection [assertion]
+      early skip of rewriting module: sqlalchemy.schema [assertion]
+      early skip of rewriting module: sqlalchemy.types [assertion]
+      early skip of rewriting module: sqlalchemy.engine.default [assertion]
+      early skip of rewriting module: sqlalchemy.engine.characteristics [assertion]
+      early skip of rewriting module: sqlalchemy.ext [assertion]
+      early skip of rewriting module: sqlalchemy.ext.asyncio [assertion]
+      early skip of rewriting module: sqlalchemy.ext.asyncio.engine [assertion]
+      early skip of rewriting module: sqlalchemy.ext.asyncio.exc [assertion]
+      early skip of rewriting module: sqlalchemy.ext.asyncio.base [assertion]
+      early skip of rewriting module: sqlalchemy.ext.asyncio.result [assertion]
+      early skip of rewriting module: sqlalchemy.ext.asyncio.scoping [assertion]
+      early skip of rewriting module: sqlalchemy.ext.asyncio.session [assertion]
+      early skip of rewriting module: sqlalchemy.orm [assertion]
+      early skip of rewriting module: sqlalchemy.orm.exc [assertion]
+      early skip of rewriting module: sqlalchemy.orm.util [assertion]
+      early skip of rewriting module: sqlalchemy.orm.attributes [assertion]
+      early skip of rewriting module: sqlalchemy.orm.collections [assertion]
+      early skip of rewriting module: sqlalchemy.orm.base [assertion]
+      early skip of rewriting module: sqlalchemy.orm._typing [assertion]
+      early skip of rewriting module: sqlalchemy.sql._orm_types [assertion]
+      early skip of rewriting module: sqlalchemy.orm.mapped_collection [assertion]
+      early skip of rewriting module: sqlalchemy.orm.interfaces [assertion]
+      early skip of rewriting module: sqlalchemy.orm.path_registry [assertion]
+      early skip of rewriting module: sqlalchemy.orm.mapper [assertion]
+      early skip of rewriting module: sqlalchemy.orm.instrumentation [assertion]
+      early skip of rewriting module: sqlalchemy.orm.state [assertion]
+      early skip of rewriting module: sqlalchemy.orm.loading [assertion]
+      early skip of rewriting module: sqlalchemy.orm.context [assertion]
+      early skip of rewriting module: sqlalchemy.future [assertion]
+      early skip of rewriting module: sqlalchemy.future.engine [assertion]
+      early skip of rewriting module: sqlalchemy.orm.properties [assertion]
+      early skip of rewriting module: sqlalchemy.orm.strategy_options [assertion]
+      early skip of rewriting module: sqlalchemy.orm.descriptor_props [assertion]
+      early skip of rewriting module: sqlalchemy.orm.relationships [assertion]
+      early skip of rewriting module: sqlalchemy.orm._orm_constructors [assertion]
+      early skip of rewriting module: sqlalchemy.orm.query [assertion]
+      early skip of rewriting module: sqlalchemy.orm.session [assertion]
+      early skip of rewriting module: sqlalchemy.orm.bulk_persistence [assertion]
+      early skip of rewriting module: sqlalchemy.orm.evaluator [assertion]
+      early skip of rewriting module: sqlalchemy.orm.persistence [assertion]
+      early skip of rewriting module: sqlalchemy.orm.sync [assertion]
+      early skip of rewriting module: sqlalchemy.orm.identity [assertion]
+      early skip of rewriting module: sqlalchemy.orm.state_changes [assertion]
+      early skip of rewriting module: sqlalchemy.orm.unitofwork [assertion]
+      early skip of rewriting module: sqlalchemy.orm.decl_api [assertion]
+      early skip of rewriting module: sqlalchemy.orm.clsregistry [assertion]
+      early skip of rewriting module: sqlalchemy.orm.decl_base [assertion]
+      early skip of rewriting module: sqlalchemy.orm.dynamic [assertion]
+      early skip of rewriting module: sqlalchemy.orm.writeonly [assertion]
+      early skip of rewriting module: sqlalchemy.orm.strategies [assertion]
+      early skip of rewriting module: sqlalchemy.orm.events [assertion]
+      early skip of rewriting module: sqlalchemy.orm.scoping [assertion]
+      early skip of rewriting module: sqlalchemy.orm.dependency [assertion]
+      early skip of rewriting module: app [assertion]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot/backend/tests/test_services.py' lenresult=0 outcome='failed'> [hook]
+      pytest_exception_interact [hook]
+          node: <Module test_services.py>
+          call: <CallInfo when='collect' excinfo=<ExceptionInfo CollectError("ImportError while importing test module '/workspaces/customer-support-bot/customer-support-bot/backend/t...3: in <module>\n    from app.services.database import DatabaseService\nE   ModuleNotFoundError: No module named 'app'") tblen=7>>
+          report: <CollectReport 'customer-support-bot/backend/tests/test_services.py' lenresult=0 outcome='failed'>
+      finish pytest_exception_interact --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot/backend/tests/test_services.py' lenresult=0 outcome='failed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot/backend/tests' lenresult=3 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot/backend' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir docs> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir docs>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir docs>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/docs/api_reference.md
+            path: /workspaces/customer-support-bot/customer-support-bot/docs/api_reference.md
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir docs>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/docs/api_reference.md
+            path: /workspaces/customer-support-bot/customer-support-bot/docs/api_reference.md
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/docs/architecture.md
+            path: /workspaces/customer-support-bot/customer-support-bot/docs/architecture.md
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir docs>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/docs/architecture.md
+            path: /workspaces/customer-support-bot/customer-support-bot/docs/architecture.md
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/docs/setup_guide.md
+            path: /workspaces/customer-support-bot/customer-support-bot/docs/setup_guide.md
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir docs>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/docs/setup_guide.md
+            path: /workspaces/customer-support-bot/customer-support-bot/docs/setup_guide.md
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot/docs' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot/docs' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir frontend> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir frontend>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir frontend>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/.gitignore
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/.gitignore
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir frontend>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/frontend/.gitignore
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/.gitignore
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/.vscode
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/.vscode
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/README.md
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/README.md
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir frontend>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/frontend/README.md
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/README.md
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/index.html
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/index.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir frontend>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/frontend/index.html
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/index.html
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/node_modules
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/node_modules
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/package-lock.json
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/package-lock.json
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir frontend>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/frontend/package-lock.json
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/package-lock.json
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/package.json
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/package.json
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir frontend>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/frontend/package.json
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/package.json
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/public
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/public
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/public
+            parent: <Dir frontend>
+        finish pytest_collect_directory --> <Dir public> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/src
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/src
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/src
+            parent: <Dir frontend>
+        finish pytest_collect_directory --> <Dir src> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/vite.config.js
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/vite.config.js
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir frontend>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/frontend/vite.config.js
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/vite.config.js
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot/frontend' lenresult=2 outcome='passed'> [hook]
+    genitems <Dir public> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir public>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir public>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/public/vite.svg
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/public/vite.svg
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir public>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/frontend/public/vite.svg
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/public/vite.svg
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot/frontend/public' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot/frontend/public' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir src> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir src>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir src>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/App.vue
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/App.vue
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir src>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/App.vue
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/App.vue
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/assets
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/assets
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/assets
+            parent: <Dir src>
+        finish pytest_collect_directory --> <Dir assets> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/components
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/components
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/components
+            parent: <Dir src>
+        finish pytest_collect_directory --> <Dir components> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/main.js
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/main.js
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir src>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/main.js
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/main.js
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/style.css
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/style.css
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir src>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/style.css
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/style.css
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot/frontend/src' lenresult=2 outcome='passed'> [hook]
+    genitems <Dir assets> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir assets>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir assets>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/assets/vue.svg
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/assets/vue.svg
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir assets>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/assets/vue.svg
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/assets/vue.svg
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot/frontend/src/assets' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot/frontend/src/assets' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir components> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir components>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir components>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/components/HelloWorld.vue
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/components/HelloWorld.vue
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir components>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/components/HelloWorld.vue
+            path: /workspaces/customer-support-bot/customer-support-bot/frontend/src/components/HelloWorld.vue
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot/frontend/src/components' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot/frontend/src/components' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot/frontend/src' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot/frontend' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir scripts> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir scripts>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir scripts>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/scripts/deploy.sh
+            path: /workspaces/customer-support-bot/customer-support-bot/scripts/deploy.sh
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir scripts>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/scripts/deploy.sh
+            path: /workspaces/customer-support-bot/customer-support-bot/scripts/deploy.sh
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/scripts/setup_db.sh
+            path: /workspaces/customer-support-bot/customer-support-bot/scripts/setup_db.sh
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir scripts>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/scripts/setup_db.sh
+            path: /workspaces/customer-support-bot/customer-support-bot/scripts/setup_db.sh
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            collection_path: /workspaces/customer-support-bot/customer-support-bot/scripts/setup_langsmith.py
+            path: /workspaces/customer-support-bot/customer-support-bot/scripts/setup_langsmith.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir scripts>
+            file_path: /workspaces/customer-support-bot/customer-support-bot/scripts/setup_langsmith.py
+            path: /workspaces/customer-support-bot/customer-support-bot/scripts/setup_langsmith.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'customer-support-bot/scripts' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot/scripts' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'customer-support-bot' lenresult=4 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport '.' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=3 testscollected=0>
+          config: <_pytest.config.Config object at 0x7f804baedeb0>
+          items: []
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=3 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+            items: []
+            start_path: /workspaces/customer-support-bot
+            startdir: /workspaces/customer-support-bot
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=3 testscollected=0>
+    pytest_keyboard_interrupt [hook]
+        excinfo: <ExceptionInfo Interrupted('3 errors during collection') tblen=15>
+    finish pytest_keyboard_interrupt --> [] [hook]
+    pytest_sessionfinish [hook]
+        session: <Session  exitstatus=<ExitCode.INTERRUPTED: 2> testsfailed=3 testscollected=0>
+        exitstatus: 2
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x7f804997c080>
+          exitstatus: 2
+          config: <_pytest.config.Config object at 0x7f804baedeb0>
+        pytest_report_teststatus [hook]
+            report: <CollectReport 'customer-support-bot/backend/tests/test_agents.py' lenresult=0 outcome='failed'>
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+        finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
+        pytest_report_teststatus [hook]
+            report: <CollectReport 'customer-support-bot/backend/tests/test_langsmith.py' lenresult=0 outcome='failed'>
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+        finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
+        pytest_report_teststatus [hook]
+            report: <CollectReport 'customer-support-bot/backend/tests/test_services.py' lenresult=0 outcome='failed'>
+            config: <_pytest.config.Config object at 0x7f804baedeb0>
+        finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x7f804baedeb0>
+    finish pytest_unconfigure --> [] [hook]
