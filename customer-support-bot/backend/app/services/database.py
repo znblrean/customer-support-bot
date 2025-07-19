@@ -1,27 +1,8 @@
-<<<<<<< HEAD
-from app.utils.logger import logger  # باید با نام موجود در logger.py مطابقت داشته باشد
-=======
-import os
-from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
-from sqlalchemy.orm import sessionmaker
-
-class DatabaseService:
-    def __init__(self):
-        self.engine = None
-        self.async_session = None
-
-    async def initialize(self):
-        db_url = os.getenv("DATABASE_URL", "postgresql+asyncpg://user:pass@localhost/dbname")
-        self.engine = create_async_engine(db_url)
-        self.async_session = sessionmaker(
-            self.engine, expire_on_commit=False, class_=AsyncSession
-        )
-
 import os
 from sqlalchemy import create_engine
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from sqlalchemy.orm import sessionmaker
-from app.models.conversation import Base
+from app.models.conversation import Base, Conversation
 from app.utils.logger import logger
 import redis
 
@@ -77,4 +58,3 @@ class DatabaseService:
                 await session.rollback()
                 logger.error(f"Error storing conversation: {str(e)}")
                 raise
->>>>>>> cfb62a60 (new pip install langsmith langchain openai)

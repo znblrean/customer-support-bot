@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-import sys
-print(sys.path)
-
-from fastapi import FastAPI
-
-app = FastAPI()
-
-@app.get("/")
-async def root():
-    return {"message": "Customer Support Bot API is running"}
-=======
 import os
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -69,4 +57,3 @@ async def handle_conversation(user_input: str, user_id: str, session_id: str = N
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
->>>>>>> cfb62a60 (new pip install langsmith langchain openai)
