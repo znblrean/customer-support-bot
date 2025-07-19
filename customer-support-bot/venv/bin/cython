@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#!/workspaces/customer-support-bot/venv/bin/python
-=======
 #!/workspaces/customer-support-bot/customer-support-bot/venv/bin/python
->>>>>>> cfb62a60 (new pip install langsmith langchain openai)
 # -*- coding: utf-8 -*-
 import re
 import sys
