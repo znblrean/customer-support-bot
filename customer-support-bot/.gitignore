@@ -1,1 +1,20 @@
+
+ <<EOL
+# محیط مجازی پایتون
 venv/
+.env/
+
+# فایل‌های پایتون کامپایل شده
+__pycache__/
+*.py[cod]
+
+# لاگ‌ها و فایل‌های موقت
+*.log
+*.tmp
+
+# فایل‌های محیطی
+.env
+EOL
+
+cat > customer-support-bot/README.md <<EOL
+
