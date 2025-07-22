@@ -1,0 +1,18 @@
+name: Deploy to Render
+
+on:
+  push:
+    branches: [ main ]  # هر بار که روی main branch تغییراتی push شد
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2  # کد را از ریپو checkout کن
+
+      - name: Notify Render
+        run: |
+          curl -X POST "https://api.render.com/v1/services/zik/deploys" \
+            -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d '{"clearCache": "do_not_clear"}'
